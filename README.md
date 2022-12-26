@@ -1,6 +1,6 @@
 # Get IP Reputation
 
-Lupovis Prowl is an API you can use to obtain IP reputation as well as techniques tactics and proceedures, indicators of attacks and indicators of compromise associated with an IP address.  
+Lupovis Prowl is an API you can use to obtain IP reputation as well as techniques tactics and procedures, indicators of attacks and indicators of compromise associated with an IP address.  
 
 Lupovis deploys decoys across the internet and collects and analyse requests made by malicious nodes. 
 

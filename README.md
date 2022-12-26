@@ -13,7 +13,7 @@ curl 'https://84h9dq7p3c.execute-api.eu-west-1.amazonaws.com/live/GetIPReputatio
 
 ### Powershell 
 ```
-curl 'https://84h9dq7p3c.execute-api.eu-west-1.amazonaws.com/live/GetIPReputation?ip=<IP Address>' -H "x-api-key: <API Key>"
+Invoke-WebRequest -Headers $("x-api-key = <API Key>" | ConvertFrom-StringData) 'https://84h9dq7p3c.execute-api.eu-west-1.amazonaws.com/live/GetIPReputation?ip=<IP Address>'
 ```
 
 ## Integration with Azure Sentinel 

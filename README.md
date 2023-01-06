@@ -8,12 +8,12 @@ Lupovis deploys decoys across the internet and collects and analyse requests mad
 ## BASH with CURL 
 
 ```
-curl 'https://84h9dq7p3c.execute-api.eu-west-1.amazonaws.com/live/GetIPReputation?ip=<IP Address>' -H "x-api-key: <API Key>"
+curl 'https://api.prowl.lupovis.io/GetIPReputation?ip=<IP Address>' -H "x-api-key: <API Key>"
 ```
 
 ### Powershell 
 ```
-Invoke-WebRequest -Headers $("x-api-key = <API Key>" | ConvertFrom-StringData) 'https://84h9dq7p3c.execute-api.eu-west-1.amazonaws.com/live/GetIPReputation?ip=<IP Address>'
+Invoke-WebRequest -Headers $("x-api-key = <API Key>" | ConvertFrom-StringData) 'https://api.prowl.lupovis.io/GetIPReputation?ip=<IP Address>'
 ```
 
 ## Integration with Azure Sentinel 
